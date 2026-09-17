@@ -1,4 +1,5 @@
 import React from 'react'
+import cardimg from "./assets/istockphoto-2105091005-612x612.webp"
 
 function App() {
   return (
@@ -51,7 +52,7 @@ function App() {
         <h2>Feedback from or students</h2>
         <div className="testimonial-container">
          <div className="card">
-            <img src="./istockphoto-2105091005-612x612.webp" alt="student image"/>
+            <img src={cardimg} alt="{hge}"/>
             <h3> Amaka Chibihe</h3>
             <p>This academy completely changed my career, i was able to learn how to structure my code and give it a clear understanding </p>
          </div>  
