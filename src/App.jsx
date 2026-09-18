@@ -1,5 +1,6 @@
 import React from 'react'
 import cardimg from "./assets/istockphoto-2105091005-612x612.webp"
+import aboutus from "./assets/istockphoto-2105091005-612x612.webp"
 
 function App() {
   return (
@@ -43,7 +44,7 @@ function App() {
         <a href="#" class="btn">Learn more</a>
     </div>
     <div className="about-image">
-        <img src="./istockphoto-2105091005-612x612.webp" alt="student learning"/>
+        <img src={aboutus} alt="student learning"/>
 
     </div>
     </section>
