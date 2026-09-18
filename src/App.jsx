@@ -59,7 +59,7 @@ function App() {
             <p>This academy completely changed my career, i was able to learn how to structure my code and give it a clear understanding </p>
          </div>  
           <div className="card">
-            <img src={hopeimg} alt={fog}/>
+            <img src={hopeimg} alt="student"/>
             <h3> Hope uzodinma</h3>
             <p>This academy completely changed my career, i was able to learn how to structure my code and give it a clear understanding</p>
          </div>   
