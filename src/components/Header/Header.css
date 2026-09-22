@@ -1,0 +1,25 @@
+section header{
+    display: flex;
+    justify-content: right;
+    background-color: black;
+    height: 6.6vh;
+    width: 100%;
+    position: fixed;
+}
+.nav-link-text{
+    margin-top: auto; margin-bottom: auto;
+    padding-right: 10px;
+}
+header .nav-link-text a{
+color: azure;
+text-decoration: none;
+}
+
+.header-1{
+    color: azure;
+}
+header .nav-link-text a:hover{
+    background-color: blue;
+    border-radius: 10%;
+    color: black;
+}
