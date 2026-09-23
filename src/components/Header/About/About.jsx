@@ -1,5 +1,7 @@
 import React from 'react'
 import './About.css'
+import aboutimg from "../../../assets/istockphoto-2105091005-612x612.webp"
+
 
 
 const About = () => {
@@ -25,7 +27,7 @@ const About = () => {
               <a href="#" class="btn">Learn more</a>
           </div>
           <div className="about-image">
-              <img src="./src/assets/istockphoto-2105091005-612x612.webp" alt="student learning"/>
+              <img src= {aboutimg} alt="student learning"/>
       
           </div>
           </section>
