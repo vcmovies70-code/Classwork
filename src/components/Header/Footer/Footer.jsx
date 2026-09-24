@@ -19,7 +19,7 @@ const Footer = () => {
                 <a href="a">About</a>
                 <a href="a">Courses</a>
                 <a href="a">Contact</a>
-            </div>class
+            </div>
             
             <div className="footer-box">
                 <h3>Contact Us</h3>

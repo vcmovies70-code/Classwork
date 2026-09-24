@@ -4,7 +4,7 @@ section header{
     background-color: black;
     height: 6.6vh;
     width: 100%;
-    position: fixed;
+    /*position: fixed;*/
 }
 .nav-link-text{
     margin-top: auto; margin-bottom: auto;
