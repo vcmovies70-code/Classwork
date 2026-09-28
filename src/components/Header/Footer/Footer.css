@@ -47,3 +47,43 @@
     color: #ccc;
     font-size: 14px;
 }
+/* ========== FOOTER RESPONSIVENESS ========== */
+@media (max-width: 768px) {
+  .footer {
+    padding: 50px 7% 20px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 35px;
+  }
+
+  .footer-box {
+    width: 100%;
+  }
+
+  .footer-box h2 {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 48px 6% 20px;
+  }
+
+  .footer-container {
+    gap: 25px;
+  }
+
+  .footer-box h2 {
+    font-size: 23px;
+  }
+
+  .footer-box h3 {
+    font-size: 18px;
+  }
+}
+
+
+

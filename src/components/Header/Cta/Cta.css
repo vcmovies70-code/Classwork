@@ -31,3 +31,33 @@ margin-bottom: 20px;
     background-color: #db3b3b;
     color: #fff;
 }
+/* ========== CTA RESPONSIVENESS ========== */
+@media (max-width: 768px) {
+  .cta {
+    padding: 60px 8%;
+  }
+
+  .cta-content h2 {
+    font-size: 32px;
+  }
+
+  .cta-content p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cta {
+    padding: 50px 6%;
+  }
+
+  .cta-content p {
+    font-size: 27px;
+    line-height: 1.3;
+  }
+
+  .cta-content .cta-button {
+    padding: 12px 22px;
+    font-size: 14px;
+  }
+}

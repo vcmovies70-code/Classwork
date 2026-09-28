@@ -1,4 +1,5 @@
 import React from 'react'
+import aboutimg from "../assets/istockphoto-2105091005-612x612.webp"
 
 const About = () => {
   return (
@@ -20,7 +21,7 @@ const About = () => {
                         </li>
             
                     </ul>
-                    <a href="#" class="btn">Learn more</a>
+                    <a href="#" className="btn">Learn more</a>
                 </div>
                 <div className="about-image">
                     <img src= {aboutimg} alt="student learning"/>

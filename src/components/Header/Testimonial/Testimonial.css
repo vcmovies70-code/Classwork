@@ -44,3 +44,63 @@
     box-shadow: 0.15px 15px 35px rgba(0, 0,0, 0.25);
     cursor: pointer;
 }
+/* ========== TESTIMONIAL RESPONSIVENESS ========== */
+@media (max-width: 768px) {
+  .Testimonials {
+    padding: 60px 6%;
+  }
+
+  .Testimonials h2 {
+    font-size: 32px;
+    margin-bottom: 35px;
+  }
+
+  .testimonial-container {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .testimonial-container .card {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .testimonial-container .card img {
+    height: 390px;
+  }
+}
+
+@media (max-width: 480px) {
+  .Testimonials {
+    padding: 50px 5%;
+  }
+
+  .Testimonials h1 {
+    font-size: 14px;
+  }
+
+  .Testimonials h2 {
+    font-size: 27px;
+    margin-bottom: 30px;
+  }
+
+  .testimonial-container {
+    gap: 20px;
+  }
+
+  .testimonial-container .card {
+    padding: 20px;
+  }
+
+  .testimonial-container .card img {
+    height: 280px;
+  }
+
+  .testimonial-container .card h3 {
+    font-size: 20px;
+  }
+
+  .testimonial-container .card p {
+    font-size: 15px;
+  }
+}
